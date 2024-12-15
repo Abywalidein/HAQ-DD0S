@@ -85,14 +85,14 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
 
 #DATA
 banner = f"""
-{Fore.YELLOW}
-{Fore.YELLOW}         
-{Fore.YELLOW}            
-{Fore.YELLOW}    
-{Fore.RED}          
-{Fore.RED}          
-{Fore.RED}            
-{Fore.WHITE}                      
+{Fore.YELLOW} ██▒▒      ██▒▒             ██▒██▒▒              ██▒██▒▒
+{Fore.YELLOW} ██▒▒      ██▒▒          ██▒▒    ██▒▒         ██▒▒    ██▒▒
+{Fore.YELLOW} ██▒▒      ██▒▒         ██▒▒      ██▒▒       ██▒▒      ██▒▒
+{Fore.RED}  ██▒██▒██▒██▒▒         ██▒▒      ██▒▒       ██▒▒      ██▒▒
+{Fore.RED}  ██▒▒      ██▒▒         ██▒▒      ██▒▒       ██▒▒  ██▒ ██▒▒
+{Fore.WHITE}  ██▒▒      ██▒▒         ██▒██▒██▒██▒▒        ██▒▒    ██▒▒
+{Fore.WHITE}  ██▒▒      ██▒▒  ██▒▒  ██▒▒      ██▒▒  ██▒▒    ██▒██▒▒ ██▒▒
+{Fore.WHITE}                                                         
 {Fore.WHITE}                      
 {Fore.WHITE}                      
 {Fore.WHITE}           
@@ -101,11 +101,11 @@ banner = f"""
 {Fore.CYAN}    
 {Fore.CYAN}                                                
 {Fore.YELLOW}╔══════════════════════════════════════════════════════════════════╗
-{Fore.YELLOW}║{Fore.WHITE}
-{Fore.YELLOW}║{Fore.GREEN}
-{Fore.YELLOW}║{Fore.BLUE}
-{Fore.YELLOW}║{Fore.WHITE} 
-{Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}
+{Fore.YELLOW}║{Fore.WHITE}             H U D A I R U L  A L - A Q S H A    {Fore.YELLOW}    ║
+{Fore.YELLOW}║{Fore.GREEN}                      INTERNAL SCRIPT            {Fore.YELLOW}    ║
+{Fore.YELLOW}║{Fore.BLUE}                         ATTACK ZEON              {Fore.YELLOW}    ║
+{Fore.YELLOW}║{Fore.WHITE}                          By:Kf'24                {Fore.YELLOW}   ║
+{Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}                 ——oO0Oo——               {Fore.YELLOW}   ║
 {Fore.YELLOW}╚══════════════════════════════════════════════════════════════════╝
 
  TOOL #{Fore.RESET}"""
