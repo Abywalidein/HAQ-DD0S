@@ -93,11 +93,7 @@ banner = f"""
 {Fore.RED}  ██▒▒      ██▒▒         ██▒▒      ██▒▒       ██▒▒  ██▒ ██▒▒
 {Fore.WHITE}  ██▒▒      ██▒▒         ██▒ ██▒██▒██▒▒        ██▒▒    ██▒▒
 {Fore.WHITE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒      ██▒▒  ██▒▒    ██▒██▒▒ ██▒▒
-{Fore.WHITE}                                                         
-{Fore.WHITE}                                           
-{Fore.WHITE}           
-{Fore.CYAN}            
-{Fore.CYAN}        
+{Fore.WHITE}
 {Fore.YELLOW}╔═══════════════════════════════════════════════════════════════╗
 {Fore.YELLOW}║{Fore.WHITE}                  H U D A I R U L  A L - A Q S H A          {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.GREEN}                           INTERNAL SCRIPT                       {Fore.YELLOW}║
@@ -105,15 +101,15 @@ banner = f"""
 {Fore.YELLOW}║{Fore.WHITE}                               By:Kf'24                              {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}                               ——oO0Oo—                      {Fore.YELLOW}║
 {Fore.YELLOW}╚═══════════════════════════════════════════════════════════════╝
-TOOL #{Fore.RESET}"""
+35 DETIK UNTUK MEMULAI SERANGAN...!! #{Fore.RESET}"""
 
 print(banner)
 host = ""
 ip = ""
 target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL>")
 port_loader = int(input(f"{Fore.YELLOW}PORT>"))
-time_loader = time.time() + int(input(f"{Fore.LIGHTRED_EX}TIME (DEFAULT=250)>"))
-spam_loader = int(input(f"{Fore.RED}SPAM THREAD (DEFAULT=50 OR 299)>"))
+time_loader = time.time() + int(input(f"{Fore.YELLOW}TIME (DEFAULT=250)>"))
+spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 299)>"))
 create_thread = int(input(F"{Fore.LIGHTGREEN_EX}CREATE THREAD (DEFAULT=50)>"))
 booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)>"))
 print(f"{Fore.LIGHTCYAN_EX} EXAMPLE HTTP METHODS> CONNECT GET POST HEAD ")
