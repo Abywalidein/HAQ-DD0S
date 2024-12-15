@@ -86,20 +86,20 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
 #DATA
 banner = f"""
 {Fore.YELLOW}
-{Fore.YELLOW} __    __ __    __ ______      ___     __ _______ __    __ __        ",        
-{Fore.YELLOW}|  |  |  |  |  |  |  ___  \   /    \  |  |  ___  \  |  |  |  |       ",     
-{Fore.YELLOW}|  |  |  |  |  |  |  |  \  | /  /\  \ |  |  |  |  | |  |  |  |       ",
-{Fore.RED}|  |__|  |  |  |  |  |  |  |/  /__\  \|  |  |_/  /  |  |  |  |       ",
-{Fore.RED}|  ————  |  \__|  |  |__/  |  ______  \  |   __  \  \__|  |  |____    ",     
-{Fore.RED}|__|  |__|\____|__|_______/__/      \__\_|__|  \__\____|__|\______|   ",   
-{Fore.WHITE}        ____       _______   ________ __      __      ____              ",   
-{Fore.WHITE}       /    \     /  __   \ /  _____/|  |    |  |    /    \            ",   
-{Fore.WHITE}      /  /\  \   |  /   \  |  |      |  |    |  |   /  /\  \           ",       
-{Fore.WHITE}     /  /  \  \  |  |   |  |\  \___  |  |____|  |  /  /  \  \          ",
-{Fore.CYAN}     /  /____\  \ |  |   |  | \____  \|   ____   | /  /____\  \         ",   
-{Fore.CYAN}    /  ________  \|  \___/  /  ____\  |  |    |  |/  _______   \        ", 
-{Fore.CYAN}   /__/        \__\\______  \ /______/ |__|    |__|__/        \__\     ", 
-{Fore.CYAN}                          \__\                                           ",
+{Fore.YELLOW}         
+{Fore.YELLOW}            
+{Fore.YELLOW}    
+{Fore.RED}          
+{Fore.RED}          
+{Fore.RED}            
+{Fore.WHITE}                      
+{Fore.WHITE}                      
+{Fore.WHITE}                      
+{Fore.WHITE}           
+{Fore.CYAN}            
+{Fore.CYAN}        
+{Fore.CYAN}    
+{Fore.CYAN}                                                
 {Fore.YELLOW}╔══════════════════════════════════════════════════════════════════╗
 {Fore.YELLOW}║{Fore.WHITE}
 {Fore.YELLOW}║{Fore.GREEN}
