@@ -22,7 +22,7 @@ def clear_text():
         os.system('clear')
 
 def status_print(ip,port,thread_id,rps,path_get):
-    print(f"{Fore.YELLOW}HAQ {Fore.LIGHTYELLOW_EX}Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.LIGHTBLUE_EX}PATH{Fore.WHITE}={path_get} {Fore.CYAN}RPS{Fore.WHITE}={rps} {Fore.LIGHTCYAN_EX}ID{Fore.WHITE}={thread_id}{Fore.RESET}")
+    print(f"{Fore.YELLOW}[ H A Q ]{Fore.LIGHTYELLOW_EX}Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.LIGHTBLUE_EX}PATH{Fore.WHITE}={path_get} {Fore.CYAN}RPS{Fore.WHITE}={rps} {Fore.LIGHTCYAN_EX}ID{Fore.WHITE}={thread_id}{Fore.RESET}")
 def generate_url_path_pyflooder(num):
     msg = str(string.ascii_letters + string.digits + string.punctuation)
     data = "".join(random.sample(msg, int(num)))
@@ -83,38 +83,31 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
         threading.Thread(target=runing_attack,args=(ip,host,port_loader,time_loader,spam_loader,methods_loader,booter_sent)).start()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #DATA
 banner = f"""
- {Fore.YELLOW}
- {Fore.YELLOW}
- {Fore.YELLOW} 
- {Fore.RED}
- {Fore.RED}
- {Fore.RED} 
- {Fore.WHITE}
- {Fore.WHITE}
- {Fore.WHITE} 
- {Fore.YELLOW}
- {Fore.YELLOW}
- {Fore.YELLOW} 
- {Fore.YELLOW}╚═════════════════════════════════════════════════════════════════
- {Fore.LIGHTYELLOW_EX}
+{Fore.YELLOW}
+{Fore.YELLOW} __    __ __    __ ______      ___     __ _______ __    __ __        ",        
+{Fore.YELLOW}|  |  |  |  |  |  |  ___  \   /    \  |  |  ___  \  |  |  |  |       ",     
+{Fore.YELLOW}|  |  |  |  |  |  |  |  \  | /  /\  \ |  |  |  |  | |  |  |  |       ",
+{Fore.RED}|  |__|  |  |  |  |  |  |  |/  /__\  \|  |  |_/  /  |  |  |  |       ",
+{Fore.RED}|  ————  |  \__|  |  |__/  |  ______  \  |   __  \  \__|  |  |____    ",     
+{Fore.RED}|__|  |__|\____|__|_______/__/      \__\_|__|  \__\____|__|\______|   ",   
+{Fore.WHITE}        ____       _______   ________ __      __      ____              ",   
+{Fore.WHITE}       /    \     /  __   \ /  _____/|  |    |  |    /    \            ",   
+{Fore.WHITE}      /  /\  \   |  /   \  |  |      |  |    |  |   /  /\  \           ",       
+{Fore.WHITE}     /  /  \  \  |  |   |  |\  \___  |  |____|  |  /  /  \  \          ",
+{Fore.CYAN}     /  /____\  \ |  |   |  | \____  \|   ____   | /  /____\  \         ",   
+{Fore.CYAN}    /  ________  \|  \___/  /  ____\  |  |    |  |/  _______   \        ", 
+{Fore.CYAN}   /__/        \__\\______  \ /______/ |__|    |__|__/        \__\     ", 
+{Fore.CYAN}                          \__\                                           ",
+{Fore.YELLOW}╔══════════════════════════════════════════════════════════════════╗
+{Fore.YELLOW}║{Fore.WHITE}
+{Fore.YELLOW}║{Fore.GREEN}
+{Fore.YELLOW}║{Fore.BLUE}
+{Fore.YELLOW}║{Fore.WHITE} 
+{Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}
+{Fore.YELLOW}╚══════════════════════════════════════════════════════════════════╝
+
  TOOL #{Fore.RESET}"""
 
 print(banner)
