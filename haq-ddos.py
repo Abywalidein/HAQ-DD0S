@@ -106,12 +106,12 @@ banner = f"""
 print(banner)
 host = ""
 ip = ""
-target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL==⟩⟩ ")
-port_loader = int(input(f"{Fore.YELLOW}PORT==⟩⟩"))
-time_loader = time.time() + int(input(f"{Fore.GREEN}TIME (DEFAULT=200)==⟩⟩"))
-spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 250)==⟩⟩"))
-create_thread = int(input(F"{Fore.CYAN}CREATE THREAD (DEFAULT=35)==⟩⟩"))
-booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)==⟩⟩"))
+target_loader = input(f"{Fore.LIGHTYELLOW_EX}IP/URL==⟩⟩ {Fore.WHITE} ")
+port_loader = int(input(f"{Fore.YELLOW}PORT==⟩⟩ {Fore.BLUE} "))
+time_loader = time.time() + int(input(f"{Fore.GREEN}TIME (DEFAULT=200)==⟩⟩ {Fore.CYAN} "))
+spam_loader = int(input(f"{Fore.BLUE}SPAM THREAD (DEFAULT=50 OR 250)==⟩⟩ {Fore.GREEN} "))
+create_thread = int(input(F"{Fore.CYAN}CREATE THREAD (DEFAULT=35)==⟩⟩ Fore{WHITE}"))
+booter_sent = int(input(F"{Fore.GREEN}BOOTER SENT (DEFAULT=500)==⟩⟩ {Fore.YELLOW} "))
 print(f"{Fore.YELLOW} EXAMPLE HTTP METHODS> CONNECT GET POST HEAD ")
 print(f"{Fore.CYAN}EXAMPLE CUSTOM HTTP METHODS> CLOUDFLARE AGE PYFLOODER GATEWAY")
 methods_loader = input(F"{Fore.LIGHTBLUE_EX}HTTP_METHODS (EXAMPLE=GATEWAY)>")
