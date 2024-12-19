@@ -22,6 +22,7 @@ def clear_text():
         os.system('clear')
 
 def status_print(ip,port,thread_id,rps,path_get):
+    time.sleep(1)
     print(f"{Fore.YELLOW} [ H A Q ]{Fore.LIGHTYELLOW_EX}  Attack {Fore.WHITE}Http {Fore.BLUE}TARGET{Fore.WHITE}={ip}:{port} {Fore.RESET}")
     print(f"{Fore.GREEN} [ H A Q ]{Fore.LIGHTBLUE_EX}  Attack{Fore.WHITE} {path_get} {Fore.CYAN} SCRAPE{Fore.BLUE}{rps}{Fore.LIGHTCYAN_EX}ID ⟩:::...{Fore.RED}{thread_id}{Fore.RESET}")
 def generate_url_path_pyflooder(num):
